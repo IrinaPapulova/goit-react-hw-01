@@ -21,7 +21,7 @@
   padding: 4px 0;
 }
 
-.tbody:nth-child(even) {
+.trow:nth-child(even) {
   background-color: lightgray;
 }
 
@@ -29,4 +29,8 @@
   text-align: center;
   font-size: 18px;
   font-weight: 400;
+}
+
+.trow {
+  border: 1px solid black;
 }
